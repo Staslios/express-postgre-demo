@@ -1,0 +1,18 @@
+{
+  "name": "express-postressql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "docker build -t node-postgre-app .",
+    "compose": "docker compose -f compose.yaml up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  }
+}
